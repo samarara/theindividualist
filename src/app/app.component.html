@@ -1,3 +1,102 @@
-<h1>
+<!--<h1>
   {{title}}
-</h1>
+</h1>-->
+
+<!--HEADER-->
+<div class="valign-wrapper center-align">
+    <img src="../assets/Logo/logo-01.png" class="responsive-img valign"  alt="logo"/>
+</div>
+<div class="navbar">
+    <nav>
+
+        <div class="nav-wrapper white nav-wrapper-css">
+            
+            <a href="#" class="brand-logo">
+                <div  class="valign-wrapper center">
+                    <img src="../assets/Logo/logo-03.png" class="responsive-img valign" id="logo" alt="logo"/>
+                </div>
+            </a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down right navIcons">
+                <li><a routerLink="style-men" class="navBarIcons">style men</a></li>
+                <li><a routerLink="style-women" class="navBarIcons">style women</a></li>
+                <li><a routerLink="about-us" class="navBarIcons">about us</a></li>
+                <li><a routerLink="essays" class="navBarIcons">essays</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<!--NAV-->
+<router-outlet></router-outlet>
+
+<!--FOOTER-->
+<div class="page-footer white">
+    <!--<div class="container">-->
+        <div class="row">
+            <div class="col l12 s12">
+                <!--<div class="card-panel grey lighten-5 z-depth-1">-->
+                    <div class="row valign-wrapper">
+                        <div class="col l2 offset-l3">
+                            <img src="../assets/Headshots/headshot.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                        </div>
+                        <div class="col l4 offset-l1">
+                            <h5 class="footerTitles">contributor of the month</h5>
+                            <span class="black-text">
+                                I am an awesome person. This is my snippet to highlight why I am the contributor of the month
+                            </span>
+                        </div>
+                    </div>
+                <!--</div>-->
+            </div>
+        </div>
+    <!--</div>-->
+    <!--<div class="container">-->
+        <div class="row blue-grey darken-3 ">
+            <div class="subFooter2">
+                <div class="col l6 s12" id="subFooter2Left">
+                    <h5 class="footerTitles white-text">become a contributer</h5>
+                    <p class="white-text">
+                        Join the individualist family and create an account to showcase your photography, publish an article, and share your vision 
+                    </p>
+                    <a class="waves-effect waves-light btn white black-text">SIGN UP</a>
+                    
+                </div>
+                <div class="col l6 s12" id="subFooter2Right">
+                    <h5 class="footerTitles white-text">subscribe to the individualist</h5>
+                    <p class="white-text">
+                        Let's all avoid FOMO by signing up for our email subscription list.
+                    </p>
+                    <form>
+                        <div class="row valign-wrapper">
+                            <div class="col l8 m12 s12">
+                                <div class="file-path-wrapper">
+                                    <input type="email" id="email" class="validate white-text" placeholder="Enter your email address">
+                                </div>
+                            </div>
+                            <div class="col l4 m12 s12">   
+                                <button class="btn waves-effect waves-light white black-text" type="submit" name="action">SUBSCRIBE
+                                    <!--<i class="material-icons right">send</i>-->
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="valign-wrapper subFooter3">
+                <div class="col l3 s12 left-align">
+                    <a href="#"><i class="mdi mdi-facebook mdi-24px mdi-light"></i></a>&nbsp;&nbsp;
+                    <a href="#"><i class="mdi mdi-twitter mdi-24px mdi-light"></i></a>&nbsp;&nbsp;
+                    <a href="#"><i class="mdi mdi-instagram mdi-24px mdi-light"></i></a>&nbsp;&nbsp;
+                </div>
+                <div class="col l6 s12 center-align valign">
+                    <a class="waves-effect waves-light btn-flat white-text">Contact Us</a>
+                    <a class="waves-effect waves-light btn-flat white-text">About Us</a>
+                    <a class="waves-effect waves-light btn-flat white-text">Sign Up</a>
+                    <a class="waves-effect waves-light btn-flat white-text">Subscribe</a>
+                </div>
+                <div class="col l3 s12 right-align valign">
+                    <p class="white-text">© 2017 the individualist</p>
+                </div>
+            </div>
+        </div>
+</div>

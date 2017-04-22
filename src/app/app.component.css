@@ -1,0 +1,82 @@
+#logo{
+    float: left;
+    max-width: 8%;
+}
+
+.navBarIcons{
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-variant: normal;
+    
+    font-size: large;
+    color: black;
+    /*letter-spacing: 2.6px;*/
+}
+.footerTitles{
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-variant: normal;
+    
+    font-size: 2.2em;
+    color: black;
+    letter-spacing: 1.6px;
+}
+.navIcons{
+    /*padding-right: 1%;*/
+}
+.navBarIcons2{
+    font-weight: 200;
+    color: black;
+    font-size: x-large;
+    letter-spacing: 2.6px;
+}
+.nav-wrapper-css{
+    /*padding: 4%;*/
+    /*padding-bottom: 8%;*/
+    
+}
+
+.page-footer{
+    font-weight: 200;
+}
+
+h5{
+    font-weight: 200;
+}
+
+.circle{
+    border: thin black;
+}
+
+.subFooter2{
+    padding-bottom: 3%;
+    padding-top: 3%;
+    display: flex;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#subFooter2Left{
+    border-bottom: thin solid white;
+    border-right: thin solid white;
+    border-top: thin solid white;
+    padding: 3%;
+
+    flex: 1;
+}
+
+#subFooter2Right{
+    border-bottom: thin solid white;
+    /*border-left: thin solid white;*/
+    border-top: thin solid white;
+    padding: 3%;
+    flex: 1;
+}
+
+.subFooter3{
+    padding-bottom: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
