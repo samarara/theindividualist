@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { PostListComponent } from './posts/post-list/post-list.component';
+import { MediaListComponent } from './media/media-list/media-list.component';
 
 import { StyleMenComponent } from './style-men/style-men.component';
 import { StyleWomenComponent } from './style-women/style-women.component';
@@ -10,7 +11,7 @@ import { EssaysComponent } from './essays/essays.component';
 const routes: Routes = [
     {
         path: '',
-        component: PostListComponent,
+        component: MediaListComponent,//PostListComponent,
         pathMatch: 'full'
     },
     {

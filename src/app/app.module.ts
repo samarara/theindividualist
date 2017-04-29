@@ -10,7 +10,9 @@ import { StyleMenComponent } from './style-men/style-men.component';
 import { StyleWomenComponent } from './style-women/style-women.component';
 import { EssaysComponent } from './essays/essays.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { MediaListComponent } from './media/media-list/media-list.component';
 
+import { MasonryModule } from 'angular2-masonry';
 
 @NgModule({
   declarations: [
@@ -20,12 +22,14 @@ import { AboutUsComponent } from './about-us/about-us.component';
     StyleWomenComponent,
     EssaysComponent,
     AboutUsComponent,
+    MediaListComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    TheIndividualistRoutingModule
+    TheIndividualistRoutingModule,
+    MasonryModule
   ],
   providers: [],
   bootstrap: [AppComponent]
